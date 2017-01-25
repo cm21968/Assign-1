@@ -35,6 +35,7 @@ public class Schedule
         int apmtTotal = 0;
                                 
     
+
         for (Appointment obApp : colAppointments)
         {
         	if (obApp.occursOn(nDay, nMonth))
@@ -246,5 +247,8 @@ public class Schedule
         System.out.println("\n\n\n");
         
         return test;                   
+        
     }
-}
+   }
+    
+

@@ -89,24 +89,8 @@ public class testClass
             counter++;
         }
 
-        
-        
-        System.out.println(sched.getDailySchedule(nDay, nMonth));
-        System.out.println("Day: " + nDay + " \tMonth: " + nMonth + "\tHour: " + nTime);
-        System.out.println();
-
-        //sched.freeTimes(nDay, nMonth);
-        sched.freeTimes(3, 5);
-        //System.out.println(sched.getAppList(john));
-        sched.freeTimes(30, 8);
-        System.out.println();
-        sched.freeTimes(30, 12);
-        System.out.println("");
-        System.out.println(sched.numAppoint(nDay, nMonth));
-        System.out.println(sched.numAppoint(nDay2, nMonth2));
-
-
-
     }
-
 }
+
+
+
