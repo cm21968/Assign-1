@@ -45,7 +45,7 @@ public class OneTime extends Appointment
     // MAYBE RIGHT
     public String toString()
     {
-        return "Month: " + this.nMonth + "\tDay: " + this.nDay + "\tTime: " + nHour + "\tReason: " + sDescription + "\tFor: " + obPerson;
+        return "Month: " + this.nMonth + "\tDay: " + this.nDay + "\tTime: " + nHour + "\tReason: " + sDescription + "\t" + obPerson;
     }
     
     public int getDay()

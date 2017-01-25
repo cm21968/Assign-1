@@ -16,17 +16,18 @@ public abstract class Appointment implements EarlyMorning
     // MAYBE CORRECT
     public boolean forPerson(Person obPerson)
     {
-        if (this.obPerson.equals(obPerson) && obPerson != null)
+        this.obPerson = obPerson;
+        if (this.obPerson.equals(obPerson))
         {
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
     
     // MAYBE CORRECT
     public String toString()
     {
-        return "Time: " + nHour + "\nFor: " + obPerson.toString() + "\nReason: " + sDescription;
+        return "\tTime: " + nHour + "\nFor: " + obPerson.toString() + "Reason: " + sDescription;
     }
     
     public int getnHour()
